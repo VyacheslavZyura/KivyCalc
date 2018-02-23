@@ -13,9 +13,12 @@ Config.set('graphics', 'height', 500)
 
 class CalcApp(App):
 
-    def pressing(self):
+    def pressing(self):  # вставляет символы в лейбл
         self.formula += str(isinstance)
         print(self.formula)
+
+    def result(self)  # выполняет калькуляцию
+        pass
 
     def build(self):
 
