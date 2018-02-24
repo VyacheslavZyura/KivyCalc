@@ -26,7 +26,7 @@ class CalcApp(App):
 
         gl = GridLayout(cols=4, padding=4, spacing=2, size_hint=(1, .60))
 
-        self.lbl = Label(text='232131231230adsasdasdaasa', font_size=30,
+        self.lbl = Label(text=formula, font_size=30,
                          halign='right', valign='center',
                          size_hint=(1, .4), text_size=(370, 170))
 
